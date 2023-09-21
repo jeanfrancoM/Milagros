@@ -1,0 +1,1561 @@
+﻿body, *:not([class^="tabulator"])
+{
+    font-size: 0.9rem;
+    font-family: 'Roboto';
+}
+
+body, .titulo
+{
+    font-size: 1.5rem;
+    font-family: 'Roboto';
+}
+
+.container .row
+{
+    margin-left: -0.75rem;
+    margin-right: -0.75rem;
+}
+
+.section
+{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.section.no-pad
+{
+    padding: 0;
+}
+
+.section.no-pad-bot
+{
+    padding-bottom: 0;
+}
+
+.section.no-pad-top
+{
+    padding-top: 0;
+}
+
+.row
+{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5px;
+    padding-top: 5px;
+}
+
+.row:after
+{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/*
+    COL SMALL
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+*/
+
+
+.row .col
+{
+    float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0.8rem 0.75rem 0 0.75rem;
+}
+
+.row .col .colInterno
+{
+    padding: 0 0.75rem 0 0;
+    margin-bottom: 0;
+}
+
+.row .col[class*="push-"], .row .col[class*="pull-"]
+{
+    position: relative;
+}
+
+.row .col.s1
+{
+    width: 8.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s2
+{
+    width: 16.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s3
+{
+    width: 25%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s4
+{
+    width: 33.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s5
+{
+    width: 41.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s6
+{
+    width: 50%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s7
+{
+    width: 58.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s8
+{
+    width: 66.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s9
+{
+    width: 75%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s10
+{
+    width: 83.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s11
+{
+    width: 91.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s12
+{
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.offset-s1
+{
+    margin-left: 8.3333333333%;
+}
+
+.row .col.pull-s1
+{
+    right: 8.3333333333%;
+}
+
+.row .col.push-s1
+{
+    left: 8.3333333333%;
+}
+
+.row .col.offset-s2
+{
+    margin-left: 16.6666666667%;
+}
+
+.row .col.pull-s2
+{
+    right: 16.6666666667%;
+}
+
+.row .col.push-s2
+{
+    left: 16.6666666667%;
+}
+
+.row .col.offset-s3
+{
+    margin-left: 25%;
+}
+
+.row .col.pull-s3
+{
+    right: 25%;
+}
+
+.row .col.push-s3
+{
+    left: 25%;
+}
+
+.row .col.offset-s4
+{
+    margin-left: 33.3333333333%;
+}
+
+.row .col.pull-s4
+{
+    right: 33.3333333333%;
+}
+
+.row .col.push-s4
+{
+    left: 33.3333333333%;
+}
+
+.row .col.offset-s5
+{
+    margin-left: 41.6666666667%;
+}
+
+.row .col.pull-s5
+{
+    right: 41.6666666667%;
+}
+
+.row .col.push-s5
+{
+    left: 41.6666666667%;
+}
+
+.row .col.offset-s6
+{
+    margin-left: 50%;
+}
+
+.row .col.pull-s6
+{
+    right: 50%;
+}
+
+.row .col.push-s6
+{
+    left: 50%;
+}
+
+.row .col.offset-s7
+{
+    margin-left: 58.3333333333%;
+}
+
+.row .col.pull-s7
+{
+    right: 58.3333333333%;
+}
+
+.row .col.push-s7
+{
+    left: 58.3333333333%;
+}
+
+.row .col.offset-s8
+{
+    margin-left: 66.6666666667%;
+}
+
+.row .col.pull-s8
+{
+    right: 66.6666666667%;
+}
+
+.row .col.push-s8
+{
+    left: 66.6666666667%;
+}
+
+.row .col.offset-s9
+{
+    margin-left: 75%;
+}
+
+.row .col.pull-s9
+{
+    right: 75%;
+}
+
+.row .col.push-s9
+{
+    left: 75%;
+}
+
+.row .col.offset-s10
+{
+    margin-left: 83.3333333333%;
+}
+
+.row .col.pull-s10
+{
+    right: 83.3333333333%;
+}
+
+.row .col.push-s10
+{
+    left: 83.3333333333%;
+}
+
+.row .col.offset-s11
+{
+    margin-left: 91.6666666667%;
+}
+
+.row .col.pull-s11
+{
+    right: 91.6666666667%;
+}
+
+.row .col.push-s11
+{
+    left: 91.6666666667%;
+}
+
+.row .col.offset-s12
+{
+    margin-left: 100%;
+}
+
+.row .col.pull-s12
+{
+    right: 100%;
+}
+
+.row .col.push-s12
+{
+    left: 100%;
+}
+
+.col .content-responsive-button
+{
+    padding: 5px 3px 5px 0;
+    text-align: right;
+    font-weight: 700;
+    float: right;
+}
+
+
+
+/*
+    COL MEDIUM
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+*/
+@media only screen and (min-width: 601px)
+{
+    .row .col.m1
+    {
+        width: 8.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.m2
+    {
+        width: 16.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.m3
+    {
+        width: 25%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.m4
+    {
+        width: 33.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.m5
+    {
+        width: 41.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.m6
+    {
+        width: 50%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.m7
+    {
+        width: 58.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.m8
+    {
+        width: 66.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.m9
+    {
+        width: 75%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.m10
+    {
+        width: 83.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.m11
+    {
+        width: 91.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.m12
+    {
+        width: 100%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.offset-m1
+    {
+        margin-left: 8.3333333333%;
+    }
+    .row .col.pull-m1
+    {
+        right: 8.3333333333%;
+    }
+    .row .col.push-m1
+    {
+        left: 8.3333333333%;
+    }
+    .row .col.offset-m2
+    {
+        margin-left: 16.6666666667%;
+    }
+    .row .col.pull-m2
+    {
+        right: 16.6666666667%;
+    }
+    .row .col.push-m2
+    {
+        left: 16.6666666667%;
+    }
+    .row .col.offset-m3
+    {
+        margin-left: 25%;
+    }
+    .row .col.pull-m3
+    {
+        right: 25%;
+    }
+    .row .col.push-m3
+    {
+        left: 25%;
+    }
+    .row .col.offset-m4
+    {
+        margin-left: 33.3333333333%;
+    }
+    .row .col.pull-m4
+    {
+        right: 33.3333333333%;
+    }
+    .row .col.push-m4
+    {
+        left: 33.3333333333%;
+    }
+    .row .col.offset-m5
+    {
+        margin-left: 41.6666666667%;
+    }
+    .row .col.pull-m5
+    {
+        right: 41.6666666667%;
+    }
+    .row .col.push-m5
+    {
+        left: 41.6666666667%;
+    }
+    .row .col.offset-m6
+    {
+        margin-left: 50%;
+    }
+    .row .col.pull-m6
+    {
+        right: 50%;
+    }
+    .row .col.push-m6
+    {
+        left: 50%;
+    }
+    .row .col.offset-m7
+    {
+        margin-left: 58.3333333333%;
+    }
+    .row .col.pull-m7
+    {
+        right: 58.3333333333%;
+    }
+    .row .col.push-m7
+    {
+        left: 58.3333333333%;
+    }
+    .row .col.offset-m8
+    {
+        margin-left: 66.6666666667%;
+    }
+    .row .col.pull-m8
+    {
+        right: 66.6666666667%;
+    }
+    .row .col.push-m8
+    {
+        left: 66.6666666667%;
+    }
+    .row .col.offset-m9
+    {
+        margin-left: 75%;
+    }
+    .row .col.pull-m9
+    {
+        right: 75%;
+    }
+    .row .col.push-m9
+    {
+        left: 75%;
+    }
+    .row .col.offset-m10
+    {
+        margin-left: 83.3333333333%;
+    }
+    .row .col.pull-m10
+    {
+        right: 83.3333333333%;
+    }
+    .row .col.push-m10
+    {
+        left: 83.3333333333%;
+    }
+    .row .col.offset-m11
+    {
+        margin-left: 91.6666666667%;
+    }
+    .row .col.pull-m11
+    {
+        right: 91.6666666667%;
+    }
+    .row .col.push-m11
+    {
+        left: 91.6666666667%;
+    }
+    .row .col.offset-m12
+    {
+        margin-left: 100%;
+    }
+    .row .col.pull-m12
+    {
+        right: 100%;
+    }
+    .row .col.push-m12
+    {
+        left: 100%;
+    }
+    .col .content-responsive-button
+    {
+        padding: 5px 3px 5px 0;
+        text-align: left;
+        font-weight: 700;
+    }
+}
+
+
+/*
+    COL LARGE
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+*/
+@media only screen and (min-width: 993px)
+{
+    .row .col.l1
+    {
+        width: 8.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.l2
+    {
+        width: 16.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.l3
+    {
+        width: 25%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.l4
+    {
+        width: 33.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.l5
+    {
+        width: 41.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.l6
+    {
+        width: 50%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.l7
+    {
+        width: 58.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.l8
+    {
+        width: 66.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.l9
+    {
+        width: 75%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.l10
+    {
+        width: 83.3333333333%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.l11
+    {
+        width: 91.6666666667%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.l12
+    {
+        width: 100%;
+        margin-left: auto;
+        left: auto;
+        right: auto;
+    }
+    .row .col.offset-l1
+    {
+        margin-left: 8.3333333333%;
+    }
+    .row .col.pull-l1
+    {
+        right: 8.3333333333%;
+    }
+    .row .col.push-l1
+    {
+        left: 8.3333333333%;
+    }
+    .row .col.offset-l2
+    {
+        margin-left: 16.6666666667%;
+    }
+    .row .col.pull-l2
+    {
+        right: 16.6666666667%;
+    }
+    .row .col.push-l2
+    {
+        left: 16.6666666667%;
+    }
+    .row .col.offset-l3
+    {
+        margin-left: 25%;
+    }
+    .row .col.pull-l3
+    {
+        right: 25%;
+    }
+    .row .col.push-l3
+    {
+        left: 25%;
+    }
+    .row .col.offset-l4
+    {
+        margin-left: 33.3333333333%;
+    }
+    .row .col.pull-l4
+    {
+        right: 33.3333333333%;
+    }
+    .row .col.push-l4
+    {
+        left: 33.3333333333%;
+    }
+    .row .col.offset-l5
+    {
+        margin-left: 41.6666666667%;
+    }
+    .row .col.pull-l5
+    {
+        right: 41.6666666667%;
+    }
+    .row .col.push-l5
+    {
+        left: 41.6666666667%;
+    }
+    .row .col.offset-l6
+    {
+        margin-left: 50%;
+    }
+    .row .col.pull-l6
+    {
+        right: 50%;
+    }
+    .row .col.push-l6
+    {
+        left: 50%;
+    }
+    .row .col.offset-l7
+    {
+        margin-left: 58.3333333333%;
+    }
+    .row .col.pull-l7
+    {
+        right: 58.3333333333%;
+    }
+    .row .col.push-l7
+    {
+        left: 58.3333333333%;
+    }
+    .row .col.offset-l8
+    {
+        margin-left: 66.6666666667%;
+    }
+    .row .col.pull-l8
+    {
+        right: 66.6666666667%;
+    }
+    .row .col.push-l8
+    {
+        left: 66.6666666667%;
+    }
+    .row .col.offset-l9
+    {
+        margin-left: 75%;
+    }
+    .row .col.pull-l9
+    {
+        right: 75%;
+    }
+    .row .col.push-l9
+    {
+        left: 75%;
+    }
+    .row .col.offset-l10
+    {
+        margin-left: 83.3333333333%;
+    }
+    .row .col.pull-l10
+    {
+        right: 83.3333333333%;
+    }
+    .row .col.push-l10
+    {
+        left: 83.3333333333%;
+    }
+    .row .col.offset-l11
+    {
+        margin-left: 91.6666666667%;
+    }
+    .row .col.pull-l11
+    {
+        right: 91.6666666667%;
+    }
+    .row .col.push-l11
+    {
+        left: 91.6666666667%;
+    }
+    .row .col.offset-l12
+    {
+        margin-left: 100%;
+    }
+    .row .col.pull-l12
+    {
+        right: 100%;
+    }
+    .row .col.push-l12
+    {
+        left: 100%;
+    }
+    .col .content-responsive-button
+    {
+        padding: 5px 3px 5px 0;
+        text-align: center;
+        font-weight: 700;
+    }
+}
+
+
+
+
+/*
+    PERSONALIZADOS - OTROS
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+*/
+
+
+
+/*Contents Personalizado*/
+
+.content-right
+{
+    padding: 5px 3px 5px 0;
+    text-align: right;
+    font-weight: 700;
+    float: right;
+}
+
+.content-center
+{
+    padding: 5px 3px 5px 0;
+    text-align: center;
+    font-weight: 700;
+}
+
+.content-left
+{
+    padding: 5px 3px 5px 0;
+    text-align: left;
+    font-weight: 700;
+}
+
+.col:not(button)
+{
+    height: 2.8rem;
+}
+
+.row .col .content-label
+{
+    text-align: right;
+    padding-top: 4px;
+    font-weight: bold;
+}
+
+.no-spaces
+{
+    height: auto;
+}
+
+.linea-button 
+{
+    height: auto;
+}
+.col .linea-button 
+{
+    height: auto;
+}
+
+
+/*Nombre Empresa*/
+#lblNombreEmpresa 
+{
+    font-size: 22px;    
+}
+/*Menu*/
+#NavigationMenu a {
+    font-family: 'Roboto';
+    /* font-weight: bold; */
+    text-decoration: none;
+    white-space: nowrap;
+    display: block;
+    font-size: 0.9rem;
+    font-weight: inherit;
+}
+
+.level1 .static 
+{
+    font-size:0.75rem;
+}
+
+.popout .level1 .static .highlighted, a
+{
+    font-size:0.75rem;
+}
+    
+.popout .level2 .static
+{
+    font-size:0.75rem;
+}
+
+
+/*titulo con barra azul para parametros*/
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr {
+    font-weight: normal;
+}
+
+/*Redonditos de los controles*/
+
+select, input 
+{
+    border-radius: 5px;
+}
+
+/*modificaciones para el datepicker*/
+body, [class^="ui-datepicker"]
+{
+    font-size: 1rem;
+    font-family: 'Roboto';
+}
+body, .ui-datepicker-calendar thead tr th span, ui-datepicker-month
+{
+    font-size: 1rem;
+    font-family: 'Roboto';
+}
+
+body, ui-datepicker-month
+{
+    font-size: 2rem;
+    font-family: 'Roboto';
+}
+
+
+/*
+    COL isMobile
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+*/
+
+@media only screen and (max-device-width: 480px)
+{
+    
+
+    
+    /*Titulo de pagina*/
+    .titulo 
+    {
+        font-size: 2.5rem;    
+    }
+    
+    /*Nombre Empresa*/
+    #lblNombreEmpresa 
+    {
+        font-size: 2rem;    
+    }
+
+    .col:not(button)
+    {
+        height: 11rem;
+    }
+    
+    .row .col
+    {
+        padding-top: 3.5rem;
+    }
+
+    .row .col,
+    {
+        width: 100%;
+    }
+
+    .row .col, input
+    {
+        font-size: 5rem;
+    }
+    
+    .ui-widget select
+    {
+        font-size: 5rem;
+    }
+    
+    .ui-widget input
+    {
+        font-size: 5rem;
+    }
+
+    .popout .level1 .static .highlighted, a
+    {
+        font-size: 30px;
+    }
+    
+    .popout .level2 .static
+    {
+        font-size: 30px;
+    }
+    
+    
+/*
+    .ui-autocomplete a
+    {
+        font-size: 40px;
+        width: 100%;
+    }
+
+    .ui-autocomplete ui-front
+    {
+        font-size: 40px;
+        width: 100%;
+    }
+    */
+    
+/* datepicker */
+.ui-datepicker {
+    width: 50em;
+    padding: .2em .2em 0;
+    display: none;
+    height: 35em;
+}
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    font-size: 3rem;
+}
+
+.ui-datepicker-header-calendar table tr th span 
+{
+     font-size: 3rem;
+    }
+.ui-datepicker select.ui-datepicker-month, .ui-datepicker select.ui-datepicker-year {
+    width: 49%;
+    font-size: 3rem;
+    background: white;
+}
+body, .ui-datepicker-calendar thead tr th span, ui-datepicker-month
+{
+    font-size: 3rem;
+    font-family: 'Roboto';
+}
+
+body, ui-datepicker-month
+{
+    font-size: 2rem;
+    font-family: 'Roboto';
+}
+ 
+ 
+/*BOTONES   */
+.linea-button 
+{
+    height: auto;
+}
+.col .linea-button 
+{
+    height: auto;
+}
+    
+.ui-widget .ui-widget {
+    font-size: 0.6em;
+}
+
+.checkBoxResponsive {
+    font-size: 5rem;
+}
+
+.checkBoxResponsive label
+{
+    font-size: 5rem;
+    font-family: 'Roboto';
+}
+
+.checkBoxResponsive input
+{
+    width: 3rem;
+    height: 3rem;
+}
+    
+    
+    
+    
+       
+.row .col.s1
+{
+    width: 8.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s2
+{
+    width: 16.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s3
+{
+    width: 25%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s4
+{
+    width: 33.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s5
+{
+    width: 41.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s6
+{
+    width: 50%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s7
+{
+    width: 58.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s8
+{
+    width: 66.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s9
+{
+    width: 75%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s10
+{
+    width: 83.3333333333%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s11
+{
+    width: 91.6666666667%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.s12
+{
+    width: 100%;
+    margin-left: auto;
+    left: auto;
+    right: auto;
+}
+
+.row .col.offset-s1
+{
+    margin-left: 8.3333333333%;
+}
+
+.row .col.pull-s1
+{
+    right: 8.3333333333%;
+}
+
+.row .col.push-s1
+{
+    left: 8.3333333333%;
+}
+
+.row .col.offset-s2
+{
+    margin-left: 16.6666666667%;
+}
+
+.row .col.pull-s2
+{
+    right: 16.6666666667%;
+}
+
+.row .col.push-s2
+{
+    left: 16.6666666667%;
+}
+
+.row .col.offset-s3
+{
+    margin-left: 25%;
+}
+
+.row .col.pull-s3
+{
+    right: 25%;
+}
+
+.row .col.push-s3
+{
+    left: 25%;
+}
+
+.row .col.offset-s4
+{
+    margin-left: 33.3333333333%;
+}
+
+.row .col.pull-s4
+{
+    right: 33.3333333333%;
+}
+
+.row .col.push-s4
+{
+    left: 33.3333333333%;
+}
+
+.row .col.offset-s5
+{
+    margin-left: 41.6666666667%;
+}
+
+.row .col.pull-s5
+{
+    right: 41.6666666667%;
+}
+
+.row .col.push-s5
+{
+    left: 41.6666666667%;
+}
+
+.row .col.offset-s6
+{
+    margin-left: 50%;
+}
+
+.row .col.pull-s6
+{
+    right: 50%;
+}
+
+.row .col.push-s6
+{
+    left: 50%;
+}
+
+.row .col.offset-s7
+{
+    margin-left: 58.3333333333%;
+}
+
+.row .col.pull-s7
+{
+    right: 58.3333333333%;
+}
+
+.row .col.push-s7
+{
+    left: 58.3333333333%;
+}
+
+.row .col.offset-s8
+{
+    margin-left: 66.6666666667%;
+}
+
+.row .col.pull-s8
+{
+    right: 66.6666666667%;
+}
+
+.row .col.push-s8
+{
+    left: 66.6666666667%;
+}
+
+.row .col.offset-s9
+{
+    margin-left: 75%;
+}
+
+.row .col.pull-s9
+{
+    right: 75%;
+}
+
+.row .col.push-s9
+{
+    left: 75%;
+}
+
+.row .col.offset-s10
+{
+    margin-left: 83.3333333333%;
+}
+
+.row .col.pull-s10
+{
+    right: 83.3333333333%;
+}
+
+.row .col.push-s10
+{
+    left: 83.3333333333%;
+}
+
+.row .col.offset-s11
+{
+    margin-left: 91.6666666667%;
+}
+
+.row .col.pull-s11
+{
+    right: 91.6666666667%;
+}
+
+.row .col.push-s11
+{
+    left: 91.6666666667%;
+}
+
+.row .col.offset-s12
+{
+    margin-left: 100%;
+}
+
+.row .col.pull-s12
+{
+    right: 100%;
+}
+
+.row .col.push-s12
+{
+    left: 100%;
+}
+
+.col .content-responsive-button
+{
+    padding: 5px 3px 5px 0;
+    text-align: right;
+    font-weight: 700;
+    float: right;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Tema de los labels en el top */
+.custom_badge {
+     position:absolute;
+     margin-top: -17px;
+     border-radius:12px;
+     -webkit-border-radius:12px;
+     background:#708090;
+     vertical-align:bottom;
+     font-style: normal;
+     font-family: 'Roboto';
+     padding-top:3px;
+     text-transform: none;
+         
+    height: 10px;
+    font-size: 0.85rem;
+    text-align: initial;
+    color: black;
+    background-color: unset;
+    font-weight: bold;
+}
+
+
+@media only screen and (max-device-width: 480px)
+{
+    .custom_badge {
+         position:absolute;
+         margin-top: -35px;
+         border-radius:12px;
+         -webkit-border-radius:12px;
+         background:#708090;
+         vertical-align:bottom;
+         font-style: normal;
+         font-family: arial,sans-serif;
+         padding-top:3px;
+         text-transform: none;
+         
+        height: 10px;
+        font-size: 30px;
+        text-align: initial;
+        color: black;
+        background-color: unset;
+        font-weight: bold;
+    }
+}
+
+
+
+
+
+
+/*
+    TABULATOR
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+    ###################################################################################################
+*/
+
+
+.tabulatorTitle 
+{
+    font-size: 0.85rem;
+    display: inline-block;
+}
+.row .col.s12 .tabulator-contenedorcantreg 
+{
+   height: 10px; 
+   }
+.tabulator-cantidadregistros
+{
+  font-size: 0.7rem;
+  display:inherit;   
+ }
+
+@media only screen and (max-device-width: 480px)
+{
+    .tabulatorTitle 
+    {
+        font-size: 2rem;
+    }
+}
+
+
+
+
+
+
+
